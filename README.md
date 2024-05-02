@@ -16,4 +16,4 @@ This project focuses on multi-label text classfication task, leveraging various 
 - Model 1.ipynb: RoBERTa based model.
 - Model 2.ipynb: All text as a single string.
 - Model 3.ipynb: All text as a single string.
-- Model 4.ipynb: Seperate embedding on text columns.
+- Model 4.ipynb: Specific embedding on the summary, education and experience columns, with MLSMOTE for upsampling and using the resembling technique. 

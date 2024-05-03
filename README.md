@@ -7,7 +7,7 @@ This project focuses on multi-label text classfication task, leveraging various 
 ## Features
 - The data is sourced through LinkedIn's API, third-party API, and supplementary web scraping techniques. The dataset consists of 6,000 LinkedIn profiles, primarily from equity research analysts. Sample data is provided.
 - Utilize traditonal NLP techniques and pre-trained model (RoBERTa).
-- Evaluate model performance on F1 score.
+- Evaluate model performance on various averaged F1-score.
 
 ## File List
 ```please help modify file list description here ```

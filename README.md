@@ -12,6 +12,6 @@ This project focuses on multi-label text classfication task, leveraging various 
 ## File List
 - Data Preprocessing.ipynb: merge, clean, preprocessed raw data.
 - Model 1.ipynb: RoBERTa based model.
-- Model 2.ipynb: Utilize traditional NLP methods to preprocess text data and machine learning models to study their pattern. All text columns are treated as a single string. Two feature extraction techniques (Bag of Words, TF-IDF), three dimension reduction techniques (PCA, TruncatedSVD, set max_features=300 in CounterVectorizer), and two ML models (RandomForest, LightGBM) are evaluated.
+- Model 2.ipynb: Utilize traditional NLP methods to preprocess text data and machine learning models to study their pattern. All text columns are treated as a single string. Two feature extraction techniques (Bag of Words, TF-IDF), three dimension reduction techniques (PCA, TruncatedSVD, set ```max_features```=300 in CounterVectorizer), and two ML models (RandomForest, LightGBM) are evaluated.
 - Model 3.ipynb: DistilBERT Tokenizer and PCA with various ```n_estimator``` from 0.5 to 0.95, classifier models are RandomForest and LightGBM.
 - Model 4.ipynb: Specific embedding on the summary, education and experience columns, with MLSMOTE for upsampling and using the resembling technique. 
